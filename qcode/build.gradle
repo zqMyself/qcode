@@ -1,0 +1,76 @@
+apply plugin: 'com.android.library'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-android-extensions'//启用扩展支持直接使用ID
+apply plugin: 'kotlin-kapt'
+kapt {
+    generateStubs = true
+}
+
+android {
+    compileSdkVersion rootProject.ext.android["targetSdkVersion"]
+    defaultConfig {
+        minSdkVersion rootProject.ext.android["minSdkVersion"]
+        targetSdkVersion rootProject.ext.android["targetSdkVersion"]
+        versionCode rootProject.ext.android["versionCode"]
+        versionName rootProject.ext.android["versionName"]
+        testInstrumentationRunner rootProject.ext.dependencies["androidJUnitRunner"]
+    }
+    //将buildType 复制到app的module下的build
+//    buildTypes {
+//        release {
+//            buildConfigField "String", "BASE_URL", '"http://192.168.1.254:27070/"'
+//            buildConfigField "Boolean", "isDebug", "false"
+//            minifyEnabled false
+//            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+//        }
+//        debug {
+//            buildConfigField "String", "BASE_URL", '"http://192.168.1.254:27070/"'
+//            buildConfigField "Boolean", "isDebug", "true"
+//            minifyEnabled false
+//            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+//        }
+//    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    //kotlin jdk编译版本号
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+    //基础库
+    api rootProject.ext.dependencies["appcompat-v7"]
+    api rootProject.ext.dependencies["constraint-layout"]
+    api(rootProject.ext.dependencies["support-v4"]) {
+        exclude module: 'support-annotations'
+    }
+    //第三方库
+    api rootProject.ext.dependencies["fragmentation"]
+    api rootProject.ext.dependencies["swipebacklayout"]
+    api rootProject.ext.dependencies["swipebackfragment"]
+    //network
+    api rootProject.ext.dependencies["retrofit"]
+    //tool
+    api rootProject.ext.dependencies["dagger2"]
+    kapt rootProject.ext.dependencies["dagger2-compiler"]
+    api rootProject.ext.dependencies["gson"]
+    api rootProject.ext.dependencies["androideventbus"]
+    //rx
+    api rootProject.ext.dependencies["rxjava2"]
+    api rootProject.ext.dependencies["retrofit-adapter-rxjava2"]
+    api rootProject.ext.dependencies["rxandroid2"]
+    api rootProject.ext.dependencies["rxcache-jolyglot-gson"]
+    api(rootProject.ext.dependencies["rxcache2"]) {
+        exclude module: 'rxjava2'
+        exclude module: 'dagger'
+        exclude module: 'api'
+    }
+    //view
+    api rootProject.ext.dependencies["sneaker"]
+    //test
+    api rootProject.ext.dependencies["runner-test"]
+    api rootProject.ext.dependencies["espresso-core"]
+    api rootProject.ext.dependencies["junit"]
+}

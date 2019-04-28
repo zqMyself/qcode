@@ -1,0 +1,87 @@
+ext {
+
+    android = [
+            compileSdkVersion       : 28,
+            buildToolsVersion       : "28.0.3",
+            minSdkVersion           : 21,
+            targetSdkVersion        : 28,
+            versionCode             : 175,
+            versionName             : "1.1.0"
+    ]
+
+    version = [
+            androidSupportSdkVersion    : "28.0.0",
+            constraintLayoutVersion     : "1.1.3",
+            junitVersion                : "4.12",
+            runnerTestVersion           : "1.0.2",
+            espressoVersion             : "3.0.2",
+            fragmentationVersion        : "1.3.6",
+            swipebacklayoutVersion      : "1.1.0",
+            sneakerVersion              : "2.0.0",
+            retrofitSdkVersion          : "2.5.0",
+            dagger2SdkVersion           : "2.15",
+            googleGsonVersion           : "2.8.5",
+            rxandroid2Version           : "2.1.1",
+            rxjava2Version              : "2.1.12",
+            rxcache2Version             : "1.8.3-2.x",
+            androideventbusVersion      : "1.0.5.1",
+
+    ]
+
+    dependencies = [
+            //support
+            "appcompat-v7"             : "com.android.support:appcompat-v7:${version["androidSupportSdkVersion"]}",
+            "support-v4"               : "com.android.support:support-v4:${version["androidSupportSdkVersion"]}",
+            "design"                   : "com.android.support:design:${version["androidSupportSdkVersion"]}",
+            "annotations"              : "com.android.support:support-annotations:${version["androidSupportSdkVersion"]}",
+            "recyclerview-v7"          : "com.android.support:recyclerview-v7:${version["androidSupportSdkVersion"]}",
+            "constraint-layout"        : "com.android.support.constraint:constraint-layout:${version["constraintLayoutVersion"]}",
+
+
+            //activity中的多个fragment     https://github.com/YoKeyword/Fragmentation
+            "fragmentation"            : "me.yokeyword:fragmentation:${version["fragmentationVersion"]}",
+            //滑动侧滑关闭fragment         https://github.com/YoKeyword/Fragmentation
+            "swipebackfragment"        :"me.yokeyword:fragmentation-swipeback:${version["fragmentationVersion"]}",
+            //滑动侧滑关闭activity         https://github.com/ikew0ng/SwipeBackLayout
+            "swipebacklayout"          :"me.imid.swipebacklayout.lib:library:${version["swipebacklayoutVersion"]}",
+            //顶部下拉提示框               https://github.com/Hamadakram/Sneaker
+            "sneaker"                  :"com.irozon.sneaker:sneaker:${version["sneakerVersion"]}",
+
+            //network
+            //网络请求框架                https://github.com/square/retrofit
+            "retrofit"                 : "com.squareup.retrofit2:retrofit:${version["retrofitSdkVersion"]}",
+            "retrofit-adapter-rxjava2" : "com.squareup.retrofit2:adapter-rxjava2:${version["retrofitSdkVersion"]}",
+
+            //tool
+            //依赖注入框架                https://github.com/google/dagger
+            "dagger2"                  : "com.google.dagger:dagger:${version["dagger2SdkVersion"]}",
+            "dagger2-android"          : "com.google.dagger:dagger-android:${version["dagger2SdkVersion"]}",
+            "dagger2-android-support"  : "com.google.dagger:dagger-android-support:${version["dagger2SdkVersion"]}",
+            "dagger2-compiler"         : "com.google.dagger:dagger-compiler:${version["dagger2SdkVersion"]}",
+            "dagger2-android-processor": "com.google.dagger:dagger-android-processor:${version["dagger2SdkVersion"]}",
+            //google 官方gson 解析工具类 https://github.com/google/gson
+            "gson"                     : "com.google.code.gson:gson:${version["googleGsonVersion"]}",
+            //androideventbus            https://github.com/hehonghui/AndroidEventBus
+            "androideventbus"          : "org.simple:androideventbus:${version["androideventbusVersion"]}",
+
+
+            //rx2
+            //rxjava2                   https://github.com/jiang111/RxJavaApp
+            "rxjava2"                   : "io.reactivex.rxjava2:rxjava:${version["rxjava2Version"]}",
+            //rxandroid2                https://github.com/ReactiveX/RxAndroid
+            "rxandroid2"                : "io.reactivex.rxjava2:rxandroid:${version["rxandroid2Version"]}",
+            //rxcache2                  https://github.com/VictorAlbertos/RxCache
+            "rxcache2"                  : "com.github.VictorAlbertos.RxCache:runtime:${version["rxcache2Version"]}",
+            "rxcache-jolyglot-gson"     : "com.github.VictorAlbertos.Jolyglot:gson:0.0.4",
+
+            //view
+            //顶部下拉提示框            https://github.com/Hamadakram/Sneaker
+            "sneaker"                  :"com.irozon.sneaker:sneaker:${version["sneakerVersion"]}",
+
+            //test
+            "androidJUnitRunner"       : "android.support.test.runner.AndroidJUnitRunner",
+            "espresso-core"            : "com.android.support.test.espresso:espresso-core:${version["espressoVersion"]}",
+            "runner-test"              : "com.android.support.test:runner:${version["runnerTestVersion"]}",
+            "junit"                    : "junit:junit:${version["junitVersion"]}",
+    ]
+}

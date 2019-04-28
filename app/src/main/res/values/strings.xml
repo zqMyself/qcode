@@ -1,0 +1,298 @@
+<resources>
+    <string name="app_name">ZAOPlanet</string>
+
+    <string name="title_report">手机号已存在</string>
+    <string name="title_agreement_service">ZAO星球服务协议</string>
+    <string name="title_agreement_report">举报投诉操作细则</string>
+    <string name="title_agreement_register">用户注册协议</string>
+    <string name="title_agreement_community">社区公约</string>
+
+    <!--  User  登录 注册 忘记密码-->
+    <string name="isregistered_phone">手机号已存在</string>
+    <string name="please_input_phone">请输入手机号</string>
+    <string name="please_input_phone_county_code">电话区号</string>
+    <string name="input_phone_county_code">请输入电话区号</string>
+    <string name="please_input_phone_correct">请输入正确的手机号</string>
+    <string name="please_input_phone2">super_miao@qq.com</string>
+    <string name="please_input_password">请输入密码</string>
+    <string name="please_input_password2">•••••••</string>
+    <string name="please_input_password_again">请再次输入密码</string>
+    <string name="two_password_Inconsistent">两次密码输入不一致</string>
+    <string name="please_input_verifyCode">请输入验证码</string>
+    <string name="please_input_old_password">请输入原密码</string>
+    <string name="please_input_new_password">请输入新密码</string>
+    <string name="please_input_comfirm_password">再次输入密码</string>
+    <string name="password_length_not_enough">密码长度为6～20</string>
+    <string name="please_input_nickname">请输入昵称</string>
+    <string name="please_input_nickname_lenght">昵称长度2~12</string>
+    <string name="registration_agreement">《ZAO星球注册协议》</string>
+    <string name="registration_agreement_title">ZAO星球注册协议</string>
+    <string name="mystical_shop">神秘商店</string>
+    <string name="please_agree_registration_agreement">请同意《注册协议》</string>
+    <string name="get_verifyCode">获取验证码</string>
+    <string name="get_verifyCode_success">获取成功</string>
+    <string name="input_massage">填写信息</string>
+    <string name="forget_possword">忘记密码</string>
+    <string name="forget_possword2">忘记密码?</string>
+    <string name="login">登录</string>
+    <string name="login_success">登录成功</string>
+    <string name="out_success">退出成功</string>
+    <string name="register">注册</string>
+    <string name="register_success">注册成功</string>
+    <string name="next">下一步</string>
+    <string name="comfirm">确定</string>
+    <string name="forget_possword_title">忘记密码</string>
+    <string name="set_possword_title">修改密码</string>
+    <string name="copyright_author">ZAOPlanet</string>
+    <string name="copyright">ZAOPlanet</string>
+    <string name="botton_login">ZAOPlanet</string>
+    <string name="app_tip">©2018 ZAOPALNET ALL Right Reserved</string>
+    <string name="app_http">www.zaoplanet.com</string>
+    <string name="stele_tip">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;不久前，我们在第三次星际探险时，遭遇了量子风暴的干扰，在飞船迷航之际，发现了这颗奇妙而美丽的星球。\n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;如今，星球的开拓者们慕名而来，我们将携手一同建造星球，去探索星球之中更多未知的秘密。</string>
+    <string name="stele_tip1">ZAOPLANET探险队</string>
+
+    <string name="zaocoin_tip">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;ZAO币是星球流通的基础货币，每位星球用户在为星球做出贡献时，都将获得相应的ZAO币奖励。使用ZAO币可以在星球上获得更多的增值服务，也可以用于购买神秘商店的礼物。希望每位星球用户在为星球建设做贡献的同时收获更多的快乐，让我们一起为ZAO星球美好的未来加油!</string>
+    <string name="agreement_service">《ZAO星球服务协议》</string>
+    <string name="agreement_report">《举报投诉操作细则》</string>
+    <string name="agreement_register">《用户注册协议》</string>
+    <string name="agreement_community">《社区公约》</string>
+    <string name="about_zaocoin">关于ZAO币</string>
+
+    <string name="add_follow">+关注</string>
+    <string name="already_follow">已关注</string>
+    <string name="already_follow2">关注</string>
+    <string name="add_comment">评论</string>
+    <string name="see_all_comment">查看全部评论</string>
+    <string name="marvellous_comment">精彩评论</string>
+    <string name="comment_details_title">评论详情</string>
+    <string name="all_comment_title">最新评论</string>
+    <string name="add_expression">添加表情</string>
+    <string name="add_video_picture">图片/视频</string>
+    <string name="add_circle_friend">圈好友</string>
+    <string name="release_dynamic">发布动态</string>
+    <string name="release_comment">发布评论</string>
+    <string name="release_dynamic_success">发布成功</string>
+    <string name="release_comment_success">评论成功</string>
+    <string name="release_comment_error">评论失败</string>
+    <string name="release_reply">发布回复</string>
+    <string name="release_reply_success">回复成功</string>
+    <string name="release_forward">转发动态</string>
+    <string name="release">发表</string>
+    <string name="send">发送</string>
+    <string name="send_message">发消息</string>
+    <string name="search">搜索</string>
+    <string name="search_hint2">搜索更多精彩内容</string>
+    <string name="this_fabulous_dynamic">点赞了这条动态</string>
+    <string name="reply_number">%1$s条回复</string>
+    <string name="reply_at">回复:%1$s</string>
+    <string name="reply2">回复%1$s</string>
+    <string name="report">举报</string>
+    <string name="already_report">您已经举报过了</string>
+    <string name="no_reply_myself">自己不能回复自己</string>
+    <string name="report_tips">请选择举报原因(单选)</string>
+    <string name="campaign_title">集合石</string>
+    <string name="campaign_detail_title">活动详情</string>
+    <string name="save_no_send_dyamic">要保留编辑内容吗？</string>
+    <string name="save_no_send_dyamic_yes">保留</string>
+    <string name="save_no_send_dyamic_no">不保留</string>
+
+
+    <string name="setup_title">设置</string>
+    <string name="wireless_download">仅WI-Fi网络下载图片</string>
+    <string name="clear_cache_picture">清除图片缓存</string>
+    <string name="push_message">推送消息</string>
+    <string name="about">关于</string>
+    <string name="current_version">当前版本</string>
+    <string name="out_login">离开星球</string>
+    <string name="out_login_comfig">确定注销当前飞船吗？</string>
+
+    <!--  个人中心 -->
+    <string name="default_name">Sunshine</string>
+    <string name="defaut_profile">请留下你的印记</string>
+    <string name="follow">关注</string>
+    <string name="contribution_value">ZAO币</string>
+    <string name="fans">粉丝</string>
+    <string name="all_dynamic">全部动态</string>
+
+    <string name="look_all">查看更多</string>
+    <string name="mine_homepage">我的主页</string>
+    <string name="other_homepage">Ta的主页</string>
+    <string name="other_homepage2">Ta的主页</string>
+    <string name="other_homepage3">Ta的主页</string>
+    <string name="title_my_collection">我的收藏</string>
+    <string name="collection_success">收藏成功</string>
+    <string name="collection_myself_dynamic">不能收藏自己的动态</string>
+    <string name="collection_like_dynamic">不能点赞自己的动态</string>
+    <string name="collection_like_comment">不能点赞自己的评论</string>
+    <string name="collection_report_dynamic">不能举报自己的动态</string>
+    <string name="collection_erorr">取消收藏</string>
+    <string name="title_message">私信</string>
+    <string name="title_zao_note">ZAO币记录</string>
+    <string name="title_basic_information">基本信息</string>
+    <string name="title_aite">\@我的</string>
+    <string name="title_fabulous">点赞我的</string>
+    <string name="like_me">赞我的</string>
+    <string name="input_phone_hint">邮箱/手机号</string>
+    <string name="feedfack_context">请详细描述遇到的问题，我们会尽快帮您解决</string>
+    <string name="title_feedfack">星球吐槽箱</string>
+    <string name="feedfack_success">感谢您的反馈，我们认真查阅您的意见！</string>
+    <string name="feedfack_error">意见反馈失败</string>
+    <string name="new_version">新版本%1$s</string>
+    <string name="code_version">ZAO星球 %1$s</string>
+    <string name="new_version2">又有新版本了，是否更新</string>
+    <string name="go_update_version">立即更新</string>
+    <string name="newest_version">当前是最新版本</string>
+    <string name="new_comment">新评论</string>
+    <string name="new_reply">新回复</string>
+    <string name="copy_success">复制成功</string>
+    <string name="copy">复制</string>
+
+    <string name="input_error">不能包含特殊字符</string>
+    <string name="delete">删除</string>
+    <string name="delete_this_dynamic">要删除这条动态吗？</string>
+    <string name="delete_this_comment">要删除这条评论吗？</string>
+    <string name="delete_this_dynamic_comfirm">是的呢</string>
+    <string name="delete_this_dynamic_cancel">舍不得</string>
+    <string name="delete_this_dynamic_success">删除成功</string>
+    <string name="delete_this_dynamic_error">删除失败</string>
+    <string name="delete_collect">当真不要了？</string>
+    <string name="cancel_collect">取消收藏成功</string>
+    <string name="delete_follow">不关注TA了吗?</string>
+    <string name="cancel_follow">取消关注成功</string>
+    <string name="cancel_follow2">不关注</string>
+    <string name="think_again">再想想</string>
+
+    <!--  基本信息 -->
+    <string name="head">头像</string>
+    <string name="phone_number">手机号</string>
+    <string name="introduction">简介</string>
+    <string name="nickname">昵称</string>
+    <string name="region">地区</string>
+    <string name="sex">性别</string>
+    <string name="handsome_guy">帅哥</string>
+    <string name="beauty">美女</string>
+    <string name="alien">外星人</string>
+    <string name="update_password">修改密码</string>
+    <string name="please_input_new_nickname">请输入新昵称</string>
+    <string name="chocie_album">从手机相册选择</string>
+    <string name="photograph">拍照</string>
+    <string name="head_update_success">保存成功</string>
+    <string name="head_update_error">保存失败</string>
+    <string name="sex_update_error">更改失败</string>
+    <string name="sex_update_success">更改成功</string>
+    <string name="nickname_update_error">设置失败</string>
+    <string name="nickname_update_success">设置成功</string>
+    <string name="introduction_update_error">保存失败</string>
+    <string name="introduction_update_success">保存成功</string>
+    <string name="region_update_error">地区更新失败</string>
+    <string name="region_update_success">地区更新成功</string>
+
+
+    <!-- 搜索 -->
+    <string name="search_context_title">输入内容或者关键字搜索更多动态和用户</string>
+    <string name="search_context_record">— 搜索记录 —</string>
+    <string name="clear_search_context">清空搜索记录</string>
+    <string name="please_input_content">请输入内容</string>
+    <string name="keyword">关键字</string>
+    <string name="search_input_content">搜索广场动态</string>
+    <string name="search_user">搜索用户</string>
+    <string name="search_dynamic">搜索动态</string>
+    <string name="please_input_content3">内容过长</string>
+    <string name="please_input_content2">请输入内容...</string>
+    <string name="please_input_content4">嘿~想在广场上说点什么呢？</string>
+    <string name="please_input_content5">优质评论会被优先展示</string>
+    <string name="please_input_content6">介绍一下优秀的自己呗</string>
+    <string name="all_user_title">全部用户</string>
+    <string name="all_user_at">选择用户</string>
+    <string name="gif_big1">第%1$d动图过大</string>
+
+    <!-- 活动 -->
+    <string name="click_for_details">点击查看详情</string>
+
+    <!-- 邀请注册 -->
+    <string name="invite_text">送好友一艘飞船, 邀请TA来\nZao星球, 一起创造快乐吧~</string>
+    <string name="wechat_friend">微信好友</string>
+    <string name="circle_of_friend">朋友圈</string>
+    <string name="system_notify">系统消息</string>
+    <string name="share_friend">分享给好友</string>
+
+
+    <!-- IMUI -->
+    <string name="confirm">确定</string>
+    <string name="cancel">取消</string>
+    <string name="offline_notifation">下线通知</string>
+    <string name="offline_notifation_tip">您的账号在其他设备上登录，请确认是否为本人操作。</string>
+    <string name="service_hotline">客服电话:%1$s</string>
+    <string name="offline_notifation_tip_login">您的账号登陆过期，请重新登录</string>
+    <string name="confirm5">开启接收</string>
+    <string name="cancel4">关闭接收</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="action_bar_back">返回</string>
+    <string name="confirm2">要的</string>
+    <string name="confirm3">对的</string>
+    <string name="confirm4">不要了</string>
+    <string name="cancel2">不要</string>
+    <string name="cancel3">按错了</string>
+    <string name="agree">同意</string>
+    <string name="agreed">已同意</string>
+    <string name="refuse">拒绝</string>
+    <string name="refused">已拒绝</string>
+    <string name="done">完成</string>
+    <string name="about_env">网络环境</string>
+
+
+    <!--分享-->
+
+
+    <string name="errcode_success">分享成功</string>
+
+    <string name="errcode_cancel">分享取消</string>
+
+    <string name="errcode_deny">分享被拒绝</string>
+
+    <string name="errcode_unsupported">不支持错误</string>
+
+    <string name="errcode_unknown">分享返回</string>
+
+    <string name="pull_black_message">将对方加入黑名单后，双方均无法评论，回复，私信等操作。\n是否确认加入？</string>
+    <string name="pull_black_confirm">加入</string>
+    <string name="pull_black_cancel">按错了</string>
+    <string name="pull_black_success">拉黑成功</string>
+    <string name="pull_black_cancel2">取消拉黑</string>
+    <string name="cover_pull_black">您被该用户拉黑，无法执行该操作</string>
+    <string name="cover_pull_black2">您已拉黑此用户，无法执行该操作</string>
+    <string name="pull_black_list">拉黑用户</string>
+    <string name="pull_black_list_remove">移除</string>
+    <string name="pull_black_list_remove_success">移除成功</string>
+    <string name="whether_or_not_pull_black_list_remove">是否将当前用户从黑名单中移除</string>
+
+    <string name="go_square">去社交广场看看</string>
+    <string name="go_release_dynamic2">发布动态求关注</string>
+
+    <!-- 红包 -->
+    <string name="tip_redpacket_register">欢迎来到ZAO星球</string>
+    <string name="tip_redpacket_year">哇塞！获得星愿红包</string>
+    <string name="tip_redpacket_release_dynamic">每日祝福红包</string>
+
+    <string name="guide_next">还有呢</string>
+    <string name="guide_finish">谢谢小E</string>
+    <string name="guide_thanks">谢谢小E</string>
+    <string name="signin_sucess">签到成功,获得&#160;</string>
+
+    <string name="network_error">网络错误，请检查您的网络设置</string>
+
+
+
+    <string name="adventure_title">迷雾山脉</string>
+    <string name="dialog_adventure_friend_explore">还没添加好友，是否开始探险</string>
+    <string-array name="square_tab">
+        <item>关注</item>
+        <item>推荐</item>
+        <item>热门</item>
+        <item>视频</item>
+    </string-array>
+    <string-array name="select_tab">
+        <item>按时间</item>
+        <item>按热度</item>
+    </string-array>
+</resources>

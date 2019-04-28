@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#fff</color>
+    <color name="colorPrimaryDark">#fff</color>
+    <color name="colorAccent">#fff</color>
+
+    <!--主题颜色-->
+    <color name="main_color">#628cf5</color>
+    <!--背景颜色-->
+    <color name="main_background_color">#eff0f7</color>
+    <!--辅助颜色，用于聊天背景-->
+    <color name="auxiliary_color">#b6c8f5</color>
+
+    <!--字体颜色-->
+    <!-- 一级文字颜色 -->
+    <color name="text_color_1">#323232</color>
+    <!-- 二级文字颜色 -->
+    <color name="text_color_2">#666666</color>
+    <!-- 界面文本颜色 -->
+    <color name="text_default_color">#909090</color>
+    <!-- 输入框背景颜色 -->
+    <color name="input_text_default_color">#f7f7f9</color>
+
+    <!--其他颜色-->
+    <color name="white">#fff</color>
+    <color name="gray_c6">#c6c6c6</color>
+
+</resources>

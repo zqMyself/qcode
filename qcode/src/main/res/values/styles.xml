@@ -1,0 +1,54 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <!-- Base application theme. -->
+    <style name="BaseAppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowActivityTransitions">true</item>
+        <item name="android:actionOverflowMenuStyle">@style/ActionButton.Overflow.Menu</item>
+    </style>
+    <!--Toolbar-->
+    <style name="Theme.ToolBar.Menu" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+        <!-- 设置-弹窗的背景-颜色-->
+        <!--  <item name="android:colorBackground">@color/nb.theme.background</item>-->
+        <!-- 字体的颜色-->
+        <item name="android:textColor">@color/text_default_color</item>
+        <!-- 字体大小-->
+        <item name="android:textSize">16sp</item>
+        <item name="android:gravity">center_vertical</item>
+        <!-- 用于替换菜单的三个小白点，换成自已的图片-->
+        <!-- <item name="actionOverflowButtonStyle">@style/ActionButton.Overflow.Menu</item>-->
+        <!--用于控制menu弹出的位置，位于toolbar的下面，而不是上面-->
+        <item name="actionOverflowMenuStyle">@style/OverflowMenuStyle</item>
+        <!-- 用于修改item默认的分割线-->
+        <!--<item name="android:dropDownListViewStyle">@style/dropDownStyle</item>-->
+        <!--<item name="dropDownListViewStyle">@style/dropDownStyle</item>-->
+    </style>
+
+    <style name="OverflowMenuStyle" parent="Widget.AppCompat.Light.PopupMenu.Overflow">
+        <item name="overlapAnchor">false</item>
+    </style>
+    <!--设置菜单图标-->
+    <style name="ActionButton.Overflow.Menu" parent="android:style/Widget.Holo.Light.ActionButton.Overflow">
+    <!--<item name="android:src">@drawable/ic_menu_overflow</item>-->
+    </style>
+
+    <!--appbar-->
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+
+
+    <!--一级标题textView属性-->
+    <style name="TextTitleLevelA">
+        <item name="android:color">@color/text_color_1</item>
+        <item name="android:textSize">@dimen/txtsize_title_1</item>
+    </style>
+
+    <!--二级标题textView属性-->
+    <style name="TextTitleLevelB">
+        <item name="android:color">@color/text_color_2</item>
+        <item name="android:textSize">@dimen/txtsize_title_2</item>
+    </style>
+</resources>

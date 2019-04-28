@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">QCode</string>
+
+    <string name="text_empty">暂时无数据</string>
+    <string name="text_retry">重新加载</string>
+    <string name="text_error">网络错误</string>
+</resources>
