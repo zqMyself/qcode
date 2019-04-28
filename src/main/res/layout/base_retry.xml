@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#eff0f7">
+
+
+
+    <RelativeLayout
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="30dp"
+        >
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ico_no_net"
+            android:visibility="visible"
+            android:layout_marginBottom="45dp"
+            />
+        <TextView
+            android:id="@+id/tv_bottom"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/text_empty"
+            android:visibility="gone"
+            android:layout_marginTop="90dp"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:background="@drawable/tselect_pass_gray_or_blue_cirlce"
+            android:textColor="@color/select_pass_gray_white__color"/>
+    </RelativeLayout>
+
+
+</FrameLayout>
